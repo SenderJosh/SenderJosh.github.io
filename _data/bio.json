@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Joshua Nishiguchi",
     "label": "Student",
     "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
+    "email": "jsn9@hawaii.edu",
+    "phone": "808-220-5507",
+    "website": "https://senderjosh.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Spring, 2019.",
     "location": {
-      "address": "",
-      "postalCode": "96822",
+      "address": "2270 Palolo Ave",
+      "postalCode": "96816",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -17,13 +17,13 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "SenderJosh",
+        "url": "http://github.com/SenderJosh"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "joshua-nishiguchi-245029125",
+        "url": "https://www.linkedin.com/in/joshua-nishiguchi-245029125"
       },
       {
         "network": "twitter",
@@ -65,57 +65,51 @@
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "C#",
+        "MS SQL",
+        "MySQL",
+        "PHP"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Windows 10",
+        "Git/GitHub/Bitbucket",
+        "Photoshop CS6",
+        "Selenium",
+        "Unity3d"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2019)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2015-08-01",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "3.21",
       "courses": [
+        "Algorithms",
+        "Programming structure",
+        "Datastructures",
+        "Discrete mathematics",
+        "Software engineering (current)"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "STAR",
+      "position": "SQL Assistant Programmer",
+      "website": "star.hawaii.edu",
+      "startDate": "2016-12-19",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Create and debug stored procedures used to assist students in registering for courses using STAR.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Maintain and introduce new backend features to assist University of Hawaii students in completing their graduation goals on time"
       ]
     }
   ],
@@ -148,16 +142,16 @@
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "NASA Space Apps Challenge - 7th Place Internationally",
+      "date": "2016",
+      "awarder": "SpaceApps/NASA",
+      "summary": "My team got to 7th place internationally in the people's choice section. You can see our award for being Top 25 here: https://2016.spaceappschallenge.org/challenges/mars/space-route-66/projects/koala-space-program and our solution on my github."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Second place - AT&T Mobile App Hackathon",
+      "date": "2016",
+      "awarder": "AT&T",
+      "summary": "My team won second place for creating a mobile app which sent alerts to a person's mobile device whenever mail gets placed into a mailbox."
     }
   ],
   "references": [
