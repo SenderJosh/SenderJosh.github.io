@@ -1,60 +1,27 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
-date: 2014
+image: images/nasa.jpg
+title: Koala Space Program
+permalink: projects/KSP
+date: 2016
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - Hackathon
+  - Unity3d
+  - C#
+summary: 7th place internationally for the NASA sponsored Space Apps Challenge hackathon in 2016
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img class="ui image" src="{{ site.baseurl }}/images/ksp.jpg">
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+Koala Space Program was a hackathon project that I did with a few of my friends, Stephani Diep, Ryan Tanaka, and Aditya Kumar. The idea was to simulate what life would be like on Mars, should we ever build a colony up there. However we also saw a funny video of Koalas fighting so at the heat of the moment, we decided to make it <i>koala themed</i>.
 
-To give you a flavor of the game, here is an excerpt from one run:
+We never expected our project to take off, partially because during the entire development of the game, we were having such a blast making jokes like "we are going to <i>koala-nize</i> Mars!" After we heard we were nominees and then top 25 semi-finalists for the people's choice competition, we decided to start our tea campaign, which [got featured on Hawaii News Now](http://www.hawaiinewsnow.com/story/31941921/koalas-in-space-uh-students-whimsical-mars-simulation-game-tackles-real-problems), at school for some <i>koala-tea</i> iced tea to fetch some votes.
 
-<hr>
+After some time we learned that we finished at #7 internationally. Even though we couldn't make it to the finals, I'm still surprised that this game we scrapped together made it this far and was able to achieve as much as we got to.
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+If you wanna check out the source on github: <a href="https://github.com/SenderJosh/koala-space-program"><i class="large github icon "></i>Koala Space Program</a>
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
+Link to news article: <a href="http://www.hawaiinewsnow.com/story/31941921/koalas-in-space-uh-students-whimsical-mars-simulation-game-tackles-real-problems">Koalas in Space! UH Students' Whimsical Mars Simulation Game Tackles Real Problems</a>
 
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
-
+Link to our hackathon page: <a href="https://2016.spaceappschallenge.org/challenges/mars/space-route-66/projects/koala-space-program">Koala Space Program - NASA SpaceApssChallenge 2016</a>
