@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: studying.jpg
+image: images/studying.jpg
 title: StudyBuddy
 permalink: projects/StudyBuddy
 date: 2015
