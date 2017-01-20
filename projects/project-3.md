@@ -12,7 +12,7 @@ labels:
 summary: 7th place internationally for the NASA sponsored Space Apps Challenge hackathon in 2016
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/ksp.jpg">
+<center><img class="ui medium right floated rounded image" src="../images/ksp.jpg"></center>
 
 Koala Space Program was a hackathon project that I did with a few of my friends, Stephani Diep, Ryan Tanaka, and Aditya Kumar. The idea was to simulate what life would be like on Mars, should we ever build a colony up there. However we also saw a funny video of Koalas fighting so at the heat of the moment, we decided to make it <i>koala themed</i>.
 
