@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/BackGroundMain.png
+image: https://s-media-cache-ak0.pinimg.com/736x/0a/81/67/0a8167a2586d67ec51684f3a3116d1a4.jpg
 title: StudyBuddy
 permalink: projects/StudyBuddy
 date: 2015
@@ -11,10 +11,6 @@ labels:
   - Photoshop
 summary: For a hackathon, I developed a studying app using the Unity3d framework and JavaScript as the language. The app is more aimed for language or math, as I've personally used it to study Spanish.
 ---
-
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/BackGroundMain.png">
-</div>
 
 This hackathon was the first hackathon I've ever attended, and was during the Spring of 2015. This was a Women in Tech sponsored hackathon located on Maui island at a Hawaii STEM Conference. The StudyBuddy app is also the first mobile app I've developed, while being the first time I've used Unity and using Javascript (primarily because at the time, my background in programming was strictly all in Java), and coincidentally my first 'real' project (I differentiate the others as just practicing, or incomplete).
 Unfortunately while some of my friends were also attending the STEM Conference, none of them were interested in participating or assisting me with the hackathon, so this was a solo project.
