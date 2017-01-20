@@ -4,7 +4,7 @@ type: project
 image: images/fbic.png
 title: Facebook Automator
 permalink: projects/FBAutomator
-date: 2015
+date: 2016
 labels:
   - Facebook C# SDK
   - .NET Framework
