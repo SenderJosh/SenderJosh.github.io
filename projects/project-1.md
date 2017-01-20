@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://s-media-cache-ak0.pinimg.com/736x/0a/81/67/0a8167a2586d67ec51684f3a3116d1a4.jpg
+image: studying.jpg
 title: StudyBuddy
 permalink: projects/StudyBuddy
 date: 2015
