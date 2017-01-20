@@ -1,24 +1,28 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/fbic.png
+title: Facebook Automator
+permalink: projects/FBAutomator
 date: 2015
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Facebook C# SDK
+  - .NET Framework
+  - Windows Presentation Foundation
+  - PHP
+  - C#
+  - MySQL
+summary: A quick, easy solution to automating the scheduling of posts to your Facebook page.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<center><img class="ui medium right floated rounded image" src="../images/fbauto.PNG"></center>
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+This project started off as a way to just get myself familiar with XML and design. I also wanted to manage a Facebook page at the time, but because I knew I'd become busy with school and other activities, I knew that I wouldn't be able to compete with the larger pages out there. 
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+I knew already that Facebook had a way to schedule posts, but the process was just a killer. You could only schedule one post at a time, and you had to do it manually. The steps were as follows: Upload the image/video and/or write a message to go along with it, click a drop menu to get the option to schedule your post, select the date and time, then click "schedule." Many pages post a few things every few hours or so, if not a cluster at a certain time. So to compete, in addition to having to find/make content for the page, I would also have to spend a lot of time scheduling the posts which would eat up whatever spare time I had.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+So out of laziness, I started this project. Which is ironic; I put in more work and research into something so that I could be lazy. And so I found the framework (which is outdated, near zero documentation, and had to learn how to use it by guessing the equivalent process with Facebook's official not-C# API), started working on my project, and just dove in and went from there.
+
+After a few (thousand) head scratches, I finally came out with the finished product and started working on documenting and putting it on github since by the time I finished, I had completely lost motivation to make and manage the Facebook page.
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+You can see the source and read more about my process of building this project here: <a href="https://github.com/SenderJosh/FB-Automator"><i class="large github icon"></i>Facebook Automator</a>
