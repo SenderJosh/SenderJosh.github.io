@@ -28,8 +28,12 @@ Of course, stupid questions also have the tendency to include putting in irrelev
 
 <h2>Smart Questions</h2> [Example of a smart question - The user was precise with his question and provided the necessary details to fulfill a response. For that, the answer he received was heavy in detail while still fun and easy to read](http://stackoverflow.com/questions/11227809/why-is-it-faster-to-process-a-sorted-array-than-an-unsorted-array)
 
-So what is a <i>smart</i> question? Not a dumb question.
+So what is a <i>smart</i> question? The opposite of a dumb question.
 
 Be precise when writing your question, what the problem is, including everything that is deemed necessary in an orderly manner where you don't end up with an essay (wall of text) at the end of it. Your question is written so it could be easily understood, encompasses enough information for it to be solved, and refrains from inputting irrelevant dialogue in both the title and body of the post. 
 
 The level of the question, beginner or advanced, does not affect the quality of the question. The effort you put into it does, especially if the question hasn't already been asked and answered before. 
+
+<hr>
+
+No matter how dumb or how simple you think the question is, just know that as long as you've made sure to put effort into first looking to see if the question has been posted/answered elsewhere, and that you ask your question is asked <i>smartly</i>.
