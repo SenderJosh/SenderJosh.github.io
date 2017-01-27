@@ -8,7 +8,7 @@ labels:
   - StackOverflow
 ---
 
-<img class="ui tiny right spaced image" src=”http://www.iconsdb.com/icons/preview/guacamole-green/question-mark-xxl.png” >
+<center><img class="ui medium right floated rounded image" src="http://www.iconsdb.com/icons/preview/guacamole-green/question-mark-xxl.png"></center>
 
 There comes a time in every programmer's life where they would come across a seemingly problem with no clue how to solve it. Resorting to Google resulted with irrelevant solutions, wrong answers, or unanswered questions. Was this problem just so simple that it was never asked? Am I the only one in the world right now that experienced this anomaly- unlikely, so do I just lack a fundamental understanding or skill that's required to solve this problem?
 
@@ -16,7 +16,7 @@ Is this really worth asking my question on StackOverflow?
 
 Perhaps, first, it would be best to define the smart and the dumb question.
 
-<h2>Dumb Questions <small>[Example of a dumb question - The poster failed to show that he put any effort into his problem, and seemingly just wants someone to do his homework assignment. As a result, nobody bothered to reply (other than link a 'how to ask a question' tutorial)](http://stackoverflow.com/questions/41877936/how-to-write-python-script-which-will-show-specific-output-in-html-page)</small></h2>
+<h2>Dumb Questions</h2> [Example of a dumb question - The poster failed to show that he put any effort into his problem, and seemingly just wants someone to do his homework assignment. As a result, nobody bothered to reply (other than link a 'how to ask a question' tutorial)](http://stackoverflow.com/questions/41877936/how-to-write-python-script-which-will-show-specific-output-in-html-page)
 
 Stupid questions are questions that get asked all too often. They, in a sense, reflect the individual's ability to research and how much they actually care about the finding the solution over just <i>getting it</i>. In other words, a dumb question will show how much effort the asker put into this problem. If it's the first thing that pops up on a Google search, chances are, they didn't care about their problem in the first place or even bothered to attempt the problem themselves. It's annoying.
 
@@ -26,7 +26,7 @@ To note on incorporating your source code, don't include your entire project fil
 
 Of course, stupid questions also have the tendency to include putting in irrelevant dialogue. "I know I might be stupid to ask this, but..." or "I'm just a noob, please be nice". People answering your question, no matter how beginner level or advanced, do not care about these things. It's more of a distraction or waste of space and time. Saying stuff like "help me" is also very redundant because you're already posting on a help board, and people specifically clicked on your question to maybe provide some assistance. This also applies to the title/subject line of the question; only include the problem in a precise manner, where stupid questions tend to have "help me" or "urgent!!!". Nobody cares (except you).
 
-<h2>Smart Questions <small>[Example of a smart question - The user was precise with his question and provided the necessary details to fulfill a response. For that, the answer he received was heavy in detail while still fun and easy to read](http://stackoverflow.com/questions/11227809/why-is-it-faster-to-process-a-sorted-array-than-an-unsorted-array)</small></h2>
+<h2>Smart Questions</h2> [Example of a smart question - The user was precise with his question and provided the necessary details to fulfill a response. For that, the answer he received was heavy in detail while still fun and easy to read](http://stackoverflow.com/questions/11227809/why-is-it-faster-to-process-a-sorted-array-than-an-unsorted-array)
 
 So what is a <i>smart</i> question? Not a dumb question.
 
