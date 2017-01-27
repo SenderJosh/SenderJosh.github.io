@@ -8,7 +8,7 @@ labels:
   - StackOverflow
 ---
 
-<img class="ui tiny center spaced image" src=”http://www.iconsdb.com/icons/preview/guacamole-green/question-mark-xxl.png” >
+<img class="ui tiny right spaced image" src=”http://www.iconsdb.com/icons/preview/guacamole-green/question-mark-xxl.png” >
 
 There comes a time in every programmer's life where they would come across a seemingly problem with no clue how to solve it. Resorting to Google resulted with irrelevant solutions, wrong answers, or unanswered questions. Was this problem just so simple that it was never asked? Am I the only one in the world right now that experienced this anomaly- unlikely, so do I just lack a fundamental understanding or skill that's required to solve this problem?
 
