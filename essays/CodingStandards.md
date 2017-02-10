@@ -23,4 +23,10 @@ Being consistent is especially helpful with debugging. While I, the author, may 
 
 After programming with C# for a long time and following the same conventions I listed above, moving to the ESLint conventions reopened a scab for me. Every time I went to put a brace down, I would put it on a new line, delete the curly brace and line, put it back at the top, delete the curly brace again, put the space after the parenthesis, and then put the curly brace back. Then new line. My style has become a habit rather than a flexible tool, which is what style really is to me. I just never really had to change much.
 
-I haven’t found the path to acquiring the green checkmark annoying so long as I could pass the initial setup which is a much greater annoyance. Once I get past that, it’s just some getting used to. 
+I haven’t found the path to acquiring the green checkmark annoying so long as I could pass the initial setup which is a much greater annoyance. Once I get past that, it’s just some getting used to.
+
+<h2>Overall</h2>
+
+There are many conventions when it comes to programming, and most are pretty similar to another. After all, it makes sense that a programmer wouldn't want to change their style too much while learning a new language. At the same time, it is inevitable that you will have to leave your comfortable style and conform to another. Whether it's for school, a job, or because you plan on posting to a forum where the community is strict about their standards.
+
+Above all, to me, it is most important to remain consistent. I among others would rather read through a different programming style over seeing an attempt at what I'm used to with a lot of inconsistencies. 
