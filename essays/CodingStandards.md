@@ -4,7 +4,7 @@ type: essay
 title: Standards
 date: 2017-02-09
 labels:
-  - 
+  - Coding Conventions
   - Software Engineering
 ---
 
