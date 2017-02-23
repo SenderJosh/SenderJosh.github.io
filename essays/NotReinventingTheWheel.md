@@ -9,7 +9,7 @@ labels:
 
 <h2>My History</h2>
 
-<center><img class="ui medium right floated rounded image" src="https://antiquitynow.files.wordpress.com/2013/08/sumerian-wheel.jpg"></center>
+<center><img class="ui medium right floated rounded image" src="http://images.clipartpanda.com/wheel-clipart-cliparti1_wheel-clip-art_07.jpg"></center>
 
 Cascading Style Sheets (CSS) are almost entirely new to me. I used to dabble very little, just enough to understand the basic syntax was like, such as the difference between defining a <i>class</i> and an <i>id</i> among them. I never went beyond that because I never saw myself as a front end person, having a not-so-great taste or much interest in design. My intention was purely to learn enough so if I wanted to, I might be able to recreate Facebook’s layout- or maybe make a beautiful landing page for my online resume.
 
