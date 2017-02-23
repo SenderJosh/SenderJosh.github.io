@@ -9,6 +9,8 @@ labels:
 
 <h2>My History</h2>
 
+<center><img class="ui medium right floated rounded image" src="https://antiquitynow.files.wordpress.com/2013/08/sumerian-wheel.jpg"></center>
+
 Cascading Style Sheets (CSS) are almost entirely new to me. I used to dabble very little, just enough to understand the basic syntax was like, such as the difference between defining a <i>class</i> and an <i>id</i> among them. I never went beyond that because I never saw myself as a front end person, having a not-so-great taste or much interest in design. My intention was purely to learn enough so if I wanted to, I might be able to recreate Facebook’s layout- or maybe make a beautiful landing page for my online resume.
 
 Unfortunately I did not know of the existence of UI frameworks so every attempt and all learning was being done with the base of CSS. Needless to say, my motivation dwindled quickly after coming to the realization of how much time and effort I would need to recreate something as basic as a landing page.
