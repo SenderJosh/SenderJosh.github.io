@@ -25,3 +25,19 @@ Check the project out the official project documentation page <a href="https://u
 
 ## My Part
 
+My portion of the project involved making the necessary database schemas and the implementations for them that had to do with accepting carpools/cancelling carpools, makign new carpool listings, and viewing all carpool listings.
+
+Throughout creating the pages and implementing the functionality, I've learned how to quickly debug Meteor applications through a checklist of common problems to help narrow down specific problems. My general checklist is: 
+
+* Did I make a new file?
+..* If so, are they imported?
+* Are all my functions and variables spelled correctly?
+* If I ctrl+z in this file, does it get fixed?
+* What are my outputs?
+..* Inputs?
+
+Generally after going through each item in that list, or to the ones that are applicable, I would be able to figure out problems ranging from inserting in schemas, creation of schemas, initialization, and information that ended up missing from inserts. 
+
+## My Thoughts
+
+I still am not sure whether or not I truly enjoyed the experience with Meteor. Even though I have gained plenty of confidence throughout the development process of UHPool, I feel that my ideas for future projects will be spent with a different framework.
