@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Standards
+title: Bracing Yourself For Conventions
 date: 2017-02-09
 labels:
   - Coding Conventions
