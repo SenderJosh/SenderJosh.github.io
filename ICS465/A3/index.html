@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Group 4</title>
+
+</head>
+<body>
+
+<div id="main">
+
+	<!-- The navigation menu will get the value of the "active" variable as a class. -->
+	<!-- To stops the page from jumping when a link is clicked we use the "prevent" modifier (short for preventDefault). -->
+
+	<div style="margin-top: 50px">
+		<center><p>ICS 465</p><p>Programming 2 - Group 4</p></center>
+	</div>
+	
+	<nav v-bind:class="active" v-on:click.prevent>
+
+		<!-- When a link in the menu is clicked, we call the makeActive method, defined in the JavaScript Vue instance. -->
+
+		<a href="#" class="ocean" v-on:click="makeActive('ocean')">Ocean</a>
+		<a href="#" class="joy" v-on:click="makeActive('joy')">Joy</a>
+		<a href="#" class="thonk" v-on:click="makeActive('thonk')">Hmm</a>
+		<a href="#" class="braddahiz" v-on:click="makeActive('braddahiz')">Chee Huu Braddah Iz</a>
+	</nav>
+
+ 	<!-- The mustache expression will be replaced with the value of "active".
+ 		 It will automatically update to reflect any changes. -->
+	<div>
+    <p>
+      <span v-on:click="youtube()" class="popuptext" id="myPopup">Click me!</span>
+    </p>
+		  <img :src="image"  />
+		<p>You chose <b>{{active}}</b></p>
+	</div>
+	
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
+<script>
+// Creating a new Vue instance and pass in an options object.
+var demo = new Vue({
+
+	// A DOM element to mount our view model.
+	el: '#main',
+
+	// Define properties and give them initial values.
+	data: {
+		active: 'ocean',
+		image: 'ocean.png'
+	},
+
+	// Functions we will be using.
+	methods: {
+		makeActive: function(item){
+			// When a model is changed, the view will be automatically updated.
+			this.active = item;
+			this.image = this.active + ".png";
+			if(item == "ocean" || item == "braddahiz") {
+        var popup = document.getElementById('myPopup');
+        popup.style.visibility = 'visible';
+      }
+      else {
+        var popup = document.getElementById('myPopup');
+        popup.style.visibility = 'hidden';
+      }
+		},
+		youtube: function() {
+			if(this.active == "ocean") {
+				window.open("https://www.youtube.com/watch?v=6E5m_XtCX3c", '_blank');
+			} else if(this.active == "braddahiz") {
+				window.open("https://www.youtube.com/watch?v=V1bFr2SWP1I", '_blank');
+			}
+		}
+		
+	}
+});
+window.onload = function() {
+  var popup = document.getElementById('myPopup');
+  popup.style.visibility = 'visible';
+}
+</script>
+</body>
+</html>
