@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Group 3</title>
+    </head>
+    <body>
+    
+	<div id="main">
+
+			<!-- The navigation menu will get the value of the "active" variable as a class. -->
+			<!-- To stops the page from jumping when a link is clicked we use the "prevent" modifier (short for preventDefault). -->
+		
+			<div style="margin-top: 50px">
+				<center><p>ICS 465</p><p>Group 3</p></center>
+			</div>
+			
+			<nav v-bind:class="active" v-on:click.prevent>
+		
+				<!-- When a link in the menu is clicked, we call the makeActive method, defined in the JavaScript Vue instance. -->
+		
+				<a href="#" class="wall1" v-on:click="makeActive('wallpaper1')">Wallpaper 1</a>
+				<a href="#" class="wall2" v-on:click="makeActive('wallpaper2')">Wallpaper 2</a>
+				<a href="#" class="wall3" v-on:click="makeActive('wallpaper3')">Wallpaper 3</a>
+				<a href="#" class="wall4" v-on:click="makeActive('wallpaper4')">Wallpaper 4</a>
+			</nav>
+
+			<div style="margin-top:2em;">
+				<img :src="image"  />
+				<div style="margin-top:1em;">
+					<span>
+						<img v-for="(star, index) in stars" v-bind:src="star" style="max-width: 2em;" v-on:click="starRate(index)" />
+					</span>
+				</div>
+				<div style="margin-top: 1em">
+					<input id="commentToAdd" type="text" />
+					<button v-on:click="addComment()">Add Comment</button>
+				</div>
+				<div v-for="comment in activeComments" style="margin-top:3em;border-left: 6px solid lightblue;background-color: lightgrey;max-width:28em;margin:auto;font-size:150%;">
+					{{comment}}
+				</div>
+				<div style="margin-top:2em;">
+					<select>
+						<option value="download">Download</option>
+						<option value="emailToStarAdvertiser">Email to Star-Advertiser</option>
+						<option value="Upload to Cloud">Upload to Cloud</option>
+					</select>
+					<button>Submit</button>
+				</div>
+			</div>
+		</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
+    <script>
+    // Creating a new Vue instance and pass in an options object.
+    var demo = new Vue({
+    
+        // A DOM element to mount our view model.
+        el: '#main',
+    
+        // Define properties and give them initial values.
+        data: {
+            active: 'wallpaper1',
+            image: 'wallpaper1.jpg',
+			stars: ['star-blank.png','star-blank.png','star-blank.png','star-blank.png','star-blank.png'],
+			activeComments: [],
+			starsAll: [0,0,0,0],
+			commentAll: [[],[],[],[]],
+			dontDouble: 0
+        },
+    
+        // Functions we will be using.
+        methods: {
+            makeActive: function(item){
+                // When a model is changed, the view will be automatically updated.
+                this.active = item;
+                this.image = this.active + ".jpg";
+				let index = 0;
+				switch(item) {
+					case 'wallpaper2':
+						index = 1;
+					break;
+					case 'wallpaper3':
+						index = 2;
+					break;
+					case 'wallpaper4':
+						index = 3;
+					break;
+					default:
+						index = 0;
+				}
+				this.activeStars = this.starsAll[index];
+				let currStars = [];
+				for(let i = 0; i < this.starsAll[index]; i++) {
+					currStars.push('star.png');
+				}
+				for(let i = 0; i < (5-this.starsAll[index]); i++) {
+					currStars.push('star-blank.png');
+				}
+				this.stars = currStars;
+				this.activeComments = this.commentAll[index];
+				this.dontDouble = 1;
+            },
+			addComment: function(comment){
+				this.comment.push(comment);
+			},
+			starRate: function(indexStar) {
+				let index = 0;
+				switch(this.active) {
+					case 'wallpaper2':
+						index = 1;
+					break;
+					case 'wallpaper3':
+						index = 2;
+					break;
+					case 'wallpaper4':
+						index = 3;
+					break;
+					default:
+						index = 0;
+				}
+				this.starsAll[index] = indexStar+1;
+				this.activeStars = this.starsAll[index];
+				let currStars = [];
+				for(let i = 0; i < this.starsAll[index]; i++) {
+					currStars.push('star.png');
+				}
+				for(let i = 0; i < (5-this.starsAll[index]); i++) {
+					currStars.push('star-blank.png');
+				}
+				this.stars = currStars;
+			},
+			addComment: function() {
+				let comment = document.getElementById('commentToAdd').value;
+				let index = 0;
+				switch(this.active) {
+					case 'wallpaper2':
+						index = 1;
+					break;
+					case 'wallpaper3':
+						index = 2;
+					break;
+					case 'wallpaper4':
+						index = 3;
+					break;
+					default:
+						index = 0;
+				}
+				this.commentAll[index].push(comment);
+				if(this.dontDouble == 0)
+					this.activeComments.push(comment);
+				console.log("here");
+				document.getElementById('commentToAdd').value = '';
+			}
+        }
+    });
+    </script>
+    
+    
+    </body></html>
